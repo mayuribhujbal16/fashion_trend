@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion Trends - Current Styles</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            background-color: black;
+        }
+
+        header {
+            background-image: url('back7.jpg');
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        header img {
+            height: 60px;
+        }
+
+        header nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: black;
+            font-weight: 700;
+        }
+
+        header nav a:hover {
+            color: black;
+        }
+
+        .hero {
+            background-image: url('back7.jpg');
+            color: black;
+            text-align: center;
+            padding: 100px 0;
+            position: relative;
+        }
+
+        .hero::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.5);
+        }
+
+        .hero h1 {
+            position: relative;
+            font-size: 3rem;
+            /* Increased font size */
+        }
+
+        .hero p {
+            position: relative;
+        }
+
+        section {
+            padding: 20px;
+            margin: 20px 0;
+            background-image: url('back7.jpg');
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            color: black;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .trending-styles {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .style-item {
+            width: 220px;
+            margin: 10px;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+
+        .style-item:hover {
+            transform: scale(1.05);
+        }
+
+        .style-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        footer {
+            background-image: url('back7.jpg');
+            text-align: center;
+            padding: 20px 0;
+            box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        footer a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: black;
+        }
+
+        footer a:hover {
+            color: black;
+        }
+
+        .instagram-feed {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .instagram-feed img {
+            width: 350px;
+            height: 200px;
+            margin: 5px;
+            border-radius: 10px;
+            transition: transform 0.3s;
+        }
+
+        .instagram-feed img:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <a href="index.html"><img src="logo3.avif" alt="Fashion Trends Logo"></a>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="trends.html">Current Trends</a>
+            <a href="tips.html">Style Tips</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <h1>Current Fashion Trends</h1>
+        <p>Discover the latest styles making waves in the fashion industry!</p>
+    </div>
+
+    <section class="trending-styles">
+        <h2>Trending Styles</h2>
+        <div class="style-item"><img src="pic1.jpg" alt="Oversized Blazers">
+            <h3>Oversized Blazers</h3>
+            <p>A must-have for both casual and formal looks.</p>
+        </div>
+        <div class="style-item"><img src="pic9.jpg" alt="Monochrome Outfits">
+            <h3>Monochrome Outfits</h3>
+            <p>Elevate your style with head-to-toe colors.</p>
+        </div>
+        <div class="style-item"><img src="pic10.jpg" alt="Chunky Sneakers">
+            <h3>Chunky Sneakers</h3>
+            <p>The perfect blend of comfort and style.</p>
+        </div>
+    </section>
+
+    <section class="fashion-tips">
+        <h2>How to Style Current Trends</h2>
+        <ul>
+            <li>Pair oversized blazers with fitted jeans for a balanced look.</li>
+            <li>Mix different textures in monochrome outfits to add depth.</li>
+            <li>Combine chunky sneakers with tailored trousers for a chic vibe.</li>
+        </ul>
+    </section>
+
+    <section class="social-media">
+        <h2>Fashion on Instagram:</h2>
+        <div class="instagram-feed">
+            <img src="pic13.jpg" alt="Instagram Post 1">
+            <img src="photo4.jpg" alt="Instagram Post 2">
+            <img src="pic14.jpeg" alt="Instagram Post 3">
+        </div>
+    </section>
+
+    <footer>
+        <div>
+            <a href="about.html">About</a>
+            <a href="privacy.html">Privacy Policy</a>
+            <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        </div>
+        <p>&copy; 2024 Fashion Trends</p>
+    </footer>
+
+</body>
+
+</html>

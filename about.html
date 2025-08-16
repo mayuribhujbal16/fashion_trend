@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+    <title>Fashion Trends - About Us</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: #f8f9fa;
+        }
+        .navbar,
+        footer {
+            background: url('back4.jpg') no-repeat center center;
+            background-size: cover;
+            color: black;
+        }
+
+        .navbar {
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .navbar img {
+            height: 80px;
+        }
+
+        .navbar-nav .nav-link {
+            color: black;
+            font-weight: bold;
+        }
+        .navbar-nav .nav-link:hover {
+            color: #0056b3;
+        }
+
+        .hero {
+            padding: 15px 15px;
+            margin: 20px 0;
+            text-align: center;
+            background: url('back4.jpg') no-repeat center center;
+            background-size: cover;
+        }
+
+        .hero h1 {
+            font-size: 4em;
+            color: black;
+            font-family: 'Montserrat', sans-serif;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+        }
+
+        .hero p {
+            font-size: 1.2em;
+            color: black;
+        }
+
+        .mission-section,
+        .team-section {
+            padding: 10px 20px;
+            margin: 20px 0px;
+            background: url('back4.jpg') no-repeat center center;
+            background-size: cover;
+            position: relative;
+            width: 100%;
+        }
+
+        .mission-section::before,
+        .team-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(255, 255, 255, 0.8);
+            z-index: 1;
+        }
+
+        .mission-section h2,
+        .team-section h2 {
+            position: relative;
+            z-index: 2;
+            color: black;
+            font-family: 'Montserrat', sans-serif;
+            text-align: center;
+            font-size: 2.5em;
+        }
+
+        .mission-section p,
+        .team-section p {
+            position: relative;
+            z-index: 2;
+            color: black;
+            text-align: center;
+            font-size: 1.2em;
+        }
+
+        .team-member {
+            margin: 20px 0;
+            position: relative;
+        }
+
+        .team-member img {
+            border-radius: 50%;
+            width: 170px;
+            height: 170px;
+            object-fit: cover;
+            position: relative;
+            z-index: 2;
+        }
+
+        .team-member h5,
+        .team-member p {
+            position: relative;
+            z-index: 2;
+            color: black;
+            text-align: center;
+        }
+
+        footer {
+            color: black;
+            padding: 15px 0;
+            margin-top: 10px;
+            box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="index.html">
+            <img src="logo3.avif" alt="Fashion Trends Logo">
+        </a>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="trends.html">Current Trends</a></li>
+                <li class="nav-item"><a class="nav-link" href="tips.html">Style Tips</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="hero">
+        <h1>About Us</h1>
+        <p>Learn more about our mission and the team behind Fashion Trends.</p>
+    </div>
+
+    <div class="container-fluid mt-5 mission-section">
+        <h2>Our Mission</h2>
+        <p>At Fashion Trends, we strive to provide you with the latest insights, tips, and trends in the fashion
+            industry. Our goal is to inspire confidence and creativity in every individual.</p>
+    </div>
+
+    <div class="container-fluid team-section">
+        <h2>Meet Our Team</h2>
+        <div class="row">
+            <div class="col-md-4 team-member text-center">
+                <img src="elena.jpg" alt="Elena">
+                <h5>Elena</h5>
+                <p>Founder & Creative Director</p>
+                <p>With over a decade of experience in the fashion industry, Elena brings a wealth of knowledge and
+                    creativity. She is passionate about sustainable fashion and inspiring others to express themselves
+                    through style.</p>
+            </div>
+            <div class="col-md-4 team-member text-center">
+                <img src="thyme.jpg" alt="Thyme">
+                <h5>Thyme</h5>
+                <p>Fashion Editor</p>
+                <p>Thyme has a keen eye for trends and a background in fashion journalism. He curates the latest styles
+                    and shares insights on how to incorporate them into everyday wear.</p>
+            </div>
+            <div class="col-md-4 team-member text-center">
+                <img src="mia.jpg" alt="Emily">
+                <h5>Emily</h5>
+                <p>Style Consultant</p>
+                <p>As a certified style consultant, Emily works with clients to refine their personal style. She
+                    believes that fashion should be fun and accessible for everyone, regardless of their budget.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Fashion Trends</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <title>Fashion Trends - Style Tips</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: url('back5.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: black;
+        }
+
+        .navbar {
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .navbar img {
+            height: 80px;
+        }
+
+        .navbar-nav .nav-link {
+            color: black;
+            font-weight: bold;
+        }
+
+        .container h1 {
+            font-family: 'Great Vibes', cursive;
+            margin-bottom: 10px;
+            text-align: center;
+            font-size: 4em;
+        }
+        .card {
+            border: none;
+            margin: 15px 0;
+            transition: transform 0.3s;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 3px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            padding: 15px 0;
+            box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">
+            <img src="logo3.avif" alt="Fashion Trends Logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="trends.html">Current Trends</a></li>
+                <li class="nav-item"><a class="nav-link" href="tips.html">Style Tips</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <h1>Style Tips</h1>
+        <p>Get the latest style tips to elevate your fashion game.</p>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="pic18.jpg" class="card-img-top" alt="Tip 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Layering Essentials</h5>
+                        <p class="card-text">Master the art of layering to add depth to your outfits.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="pic16.jpg" class="card-img-top" alt="Tip 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Accessorize Smartly</h5>
+                        <p class="card-text">Choose statement pieces that complement your look.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="pic17.webp" class="card-img-top" alt="Tip 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Footwear Matters</h5>
+                        <p class="card-text">Invest in versatile footwear for day to night transitions.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="text-center mt-5">
+        <p>&copy; 2025 Fashion Trends</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
